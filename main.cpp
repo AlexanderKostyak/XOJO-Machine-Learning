@@ -356,7 +356,7 @@ void showVectorVals(string label, vector<double>& v)
 }
 int main()
 {
-    TrainingData trainData("newerdata.txt");
+    TrainingData trainData("winedata.txt");
     //e.g., {3, 2, 1 }
     vector<unsigned> topology;
     //topology.push_back(3);
@@ -415,7 +415,7 @@ int main()
     cin.get();
 }
 
-//EXAMPLE FILE “trainingData.txt”
+//EXAMPLE FILE Â“trainingData.txtÂ”
 /*topology: 2 4 1
 in : 0.0 0.0
 out : 0.0
